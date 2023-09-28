@@ -1,17 +1,18 @@
-import React from 'react'
-import { DocsThemeConfig } from 'nextra-theme-docs'
+import React from "react"
+import { DocsThemeConfig } from "nextra-theme-docs"
 
 const config: DocsThemeConfig = {
-  logo: <span>My Project</span>,
+  logo: <img src="/title-logo.svg" width={150} alt="tembo" />,
+  darkMode: false,
   project: {
-    link: 'https://github.com/shuding/nextra-docs-template',
+    link: "https://tembo.io",
   },
   chat: {
-    link: 'https://discord.com',
+    link: "https://discord.com",
   },
-  docsRepositoryBase: 'https://github.com/shuding/nextra-docs-template',
+  docsRepositoryBase: "https://github.com/tembo-io/website",
   footer: {
-    text: 'Nextra Docs Template',
+    text: "Tembo Docs (test)",
   },
 }
 
